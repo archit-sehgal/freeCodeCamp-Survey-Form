@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins";
+}
+.outer-box {
+    position: absolute;
+    /* background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)); */
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:200vh;
+}
+.outer-box h1{
+    text-shadow: 2px 2px 10px black;
+    font-weight: lighter;
+    margin-top:60px;
+    text-align: center;
+    color:white;
+    border: none;
+}
+.outer-box header p{
+    text-align: center;
+    padding-bottom: 20px;
+    color:white;
+    border:none;
+}
+.inner-box{
+    margin: 0 auto 1.25rem auto;
+    width:700px;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding:30px;
+    border-radius:4px;
+}
+.upper-3 p label{
+    /* border:2px solid red; */
+    display: block;
+    font-size:1.2rem;
+}
+.upper-3 p label input{
+    margin-top:5px;
+    display: block;
+    width:100%;
+    height:30px;
+    border-radius: 4px;
+    border: none;
+    padding-left:10px;
+    /* font-size:1rem; */
+}
+.survey-body p{
+    margin:10px 0;
+    color:white;
+    padding:10px;
+}
+.select-option p{
+    font-size:1.2rem;
+}
+.select-option select{
+    width:100%;
+    border: none;
+    border-radius: 4px;
+    color:#495057;
+    height:25px;
+    padding-left:10px;
+    /* font-size:1rem; */
+}
+.select-option2 p{
+    font-size:1.2rem;
+}
+.select-option2 select{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color:#495057;
+    height:25px;
+    padding-left:10px;
+    /* font-size:1rem; */
+}
+.radios p{
+    display: block;
+    font-size: 1.2rem;
+}
+.radios p label{
+    padding:3px 0;
+    display: block;
+    width:200px;
+    font-size:1.2rem;
+}
+.radios p label input{
+    display: inline-block;
+    width:30px;
+    height:17px;
+    margin-top:10px;
+}
+.checks p{
+    display: block;
+    font-size: 1.2rem;
+}
+.checks p label{
+    display: block;
+    width:300px;
+    padding:4px 0;
+}
+.checks p label input{
+    display: inline-block;
+    width:30px;
+    height:18px;
+    margin-top:10px;
+}
+#submit{
+    width:100%;
+    height:40px;
+    background-color: #37af65;
+    color:white;
+    border: none;
+    border-radius: 4px;
+}
+.comments p label{
+    display: block;
+    font-size: 1.2rem;
+}
+.comments p label textarea{
+    width:100%;
+    height:150px;
+    margin-top:10px;
+    font-size: 1rem;
+    padding-left:10px;
+    padding-top:5px;
+}
